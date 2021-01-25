@@ -1,0 +1,89 @@
+*{
+    font-family: 'Roboto Condensed',Tahoma,sans-serif;
+    font-size:14px;
+}
+.wrapper{
+    background-color: #D1D1D1;
+    padding: 0 !important;
+    min-width: 500px;
+}
+.header{
+    padding: 0 !important;
+}
+.navbar-inverse{
+    border-radius: 0 !important;
+}
+.title-list{
+    border-bottom: 1px #EEE solid;
+    height: 41px;
+    margin-bottom: 10px;
+}
+.title-list h2{
+    display: inline-block;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px black solid;
+}
+.title-list h2 a{
+    text-decoration: none;
+    color: #4E4E4E;
+    font-size: 20px;
+    line-height: 40px;
+}
+.truyen-hot .ds-truyen .item{
+    margin-bottom: 10px;
+}
+.truyen-hot .ds-truyen .item img{
+    height: 250px;
+    width: 160px;
+    position: relative;
+}
+.truyen-hot .ds-truyen .item .title{
+    width: 160px;
+    bottom: 0;
+    position: absolute;
+    color: #f4f4f4;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.truyen-hot .ds-truyen .item .title .name{
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 0;
+}
+.truyen-moi .title-list{
+    margin-bottom: 0;
+}
+.truyen-moi a{
+    color: #4E4E4E;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration-color: #4E4E4E;
+}
+.truyen-moi .row{
+    padding: 0 15px;
+}
+.truyen-moi .col-ten{
+    border-bottom: 1px #A0A0A0 dashed;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+.truyen-moi .col-theloai{
+    border-bottom: 1px #A0A0A0 dashed;
+    border-left: 1px #A0A0A0 dashed;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+.truyen-moi .col-chuong{
+    border-bottom: 1px #A0A0A0 dashed;
+    border-left: 1px #A0A0A0 dashed;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+.truyen-moi .last{
+    border-bottom: none;
+}
